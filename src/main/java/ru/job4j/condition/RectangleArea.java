@@ -11,5 +11,9 @@ public class RectangleArea {
     public static void main(String[] args) {
         double result = RectangleArea.square(6, 2);
         System.out.println(" s = " + result);
+        double result1 = RectangleArea.square(12, 3);
+        System.out.println(" s = " + result1);
+        double result2 = RectangleArea.square(15, 5);
+        System.out.println(" s = " + result2);
     }
 }
