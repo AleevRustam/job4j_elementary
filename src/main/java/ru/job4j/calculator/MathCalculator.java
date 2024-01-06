@@ -8,19 +8,21 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double divisionAndMultiply(double first, double second) {
-        return division(first, second)
-                + multiply(first, second);
-    }
-
     public static double sumSubtractDivision(double first, double second) {
         return sum(first, second)
                 - division(first, second);
     }
 
+    public static double sumAllMathOperation(double first, double second) {
+        return sum(first, second)
+                + subtract(first, second)
+                + division(first, second)
+                + multiply(first, second);
+    }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + divisionAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + sumSubtractDivision(10, 20));
+        System.out.println("Результат расчета равен: " + sumAllMathOperation(10, 20));
     }
 }
