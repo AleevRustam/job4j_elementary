@@ -15,3 +15,4 @@ public class Liken {
                 System.out.println(result);
     }
 }
+
