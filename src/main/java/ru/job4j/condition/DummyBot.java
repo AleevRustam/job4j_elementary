@@ -11,6 +11,17 @@ public class DummyBot {
         return result;
     }
 
+    public static void numModify(int number) {
+
+        if (number < 0) {
+            number = -1 * number;
+        }
+        if (number > 0) {
+            number = 0;
+        }
+        System.out.println(number);
+    }
+
     public static void main(String[] args) {
         String result = DummyBot.answer("Hi, Bot.");
         System.out.println(result);
