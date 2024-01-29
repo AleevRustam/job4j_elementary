@@ -9,7 +9,7 @@ public class SimpleStringEncoder {
             if (input.charAt(i) == symbol) {
                 counter++;
             } else {
-                if (counter == 1) { //чтобы не отображалась 1 для символа внутри строки
+                if (counter == 1) { //чтобы не отображалась единица для символа внутри строки
                     result = result + symbol;
                 } else {
                     result = result + symbol + counter;
