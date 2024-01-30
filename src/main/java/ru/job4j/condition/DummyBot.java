@@ -12,7 +12,6 @@ public class DummyBot {
     }
 
     public static void numModify(int number) {
-
         if (number < 0) {
             number = -1 * number;
         }

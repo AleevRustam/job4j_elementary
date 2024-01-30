@@ -23,7 +23,6 @@ public class SimpleStringEncoder {
         } else {
             result = result + symbol + counter;
         }
-
         return result;
     }
 }
